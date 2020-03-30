@@ -1,7 +1,6 @@
 package flag
 
 import (
-	"flag"
 	"net/url"
 	"os"
 
@@ -60,8 +59,8 @@ type SrvFlags struct {
 // NewSrvFlags setups common server flags
 func NewSrvFlags() SrvFlags {
 	return SrvFlags{
-		flag.Bool("production", false, "Run in production mode"),
-		flag.String("port", "8000", "The HTTP listening port"),
+		Bool("production", false, "Run in production mode"),
+		String("port", "8000", "The HTTP listening port"),
 	}
 }
 
