@@ -1,4 +1,4 @@
-module github.com/robert-zaremba/flag
+module github.com/jacohend/flag
 
 go 1.13
 
