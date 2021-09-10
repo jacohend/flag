@@ -42,7 +42,7 @@ func (f *FlagSet) ParseEnv(environ []string) error {
 				f.usage()
 				return ErrHelp
 			}
-			return f.failf("environment variable provided but not defined: %s", name)
+			continue
 		}
 
 		envKey := strings.ToUpper(flag.Name)
