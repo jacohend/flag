@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/robert-zaremba/flag"
+	. "github.com/jacohend/flag"
 )
 
 // ResetForTesting clears all flag state and sets the usage function as directed.

@@ -1,7 +1,7 @@
 package main
 
 import (
-    "github.com/robert-zaremba/flag"
+    "github.com/jacohend/flag"
     "fmt"
     )
 

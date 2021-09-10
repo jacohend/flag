@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/robert-zaremba/flag"
+	. "github.com/jacohend/flag"
 )
 
 func boolString(s string) string {
